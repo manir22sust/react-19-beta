@@ -7,6 +7,7 @@ import { UseExample1 } from "./components/useExample1/Joke";
 // import { Joke } from "./components/JokeUseEffect";
 import { UseExample2 } from "./components/useExample2/Posts";
 import { UseExample3 } from "./components/useExample3/Message";
+import { UseExampleContext } from "./components/useExampleContext/Theme";
 // import { Posts } from "./components/useExample2/PostsUseEffect";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         // { path: "use-example-2", element: <Posts /> },
         { path: "use-example-2", element: <UseExample2 /> },
         { path: "use-example-3", element: <UseExample3 /> },
+        { path: "use-example-context", element: <UseExampleContext /> },
       ],
     },
   ]);
