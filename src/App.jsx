@@ -9,6 +9,7 @@ import { UseExample2 } from "./components/useExample2/Posts";
 import { UseExample3 } from "./components/useExample3/Message";
 import { UseExampleContext } from "./components/useExampleContext/Theme";
 import { ActionExample1 } from "./components/actionExample1/Posts";
+import { ActionExample2 } from "./components/actionExample2/ShoppingCart";
 // import { Posts } from "./components/useExample2/PostsUseEffect";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         { path: "use-example-3", element: <UseExample3 /> },
         { path: "use-example-context", element: <UseExampleContext /> },
         { path: "action-example-1", element: <ActionExample1 /> },
+        { path: "action-example-2", element: <ActionExample2 /> },
       ],
     },
   ]);
