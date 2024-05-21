@@ -10,6 +10,7 @@ import { UseExample3 } from "./components/useExample3/Message";
 import { UseExampleContext } from "./components/useExampleContext/Theme";
 import { ActionExample1 } from "./components/actionExample1/Posts";
 import { ActionExample2 } from "./components/actionExample2/ShoppingCart";
+import AddToCartForm from "./components/useFormStateExample/AddToCartForm";
 // import { Posts } from "./components/useExample2/PostsUseEffect";
 
 function App() {
@@ -27,6 +28,21 @@ function App() {
         { path: "use-example-context", element: <UseExampleContext /> },
         { path: "action-example-1", element: <ActionExample1 /> },
         { path: "action-example-2", element: <ActionExample2 /> },
+        {
+          path: "useformstate-example",
+          element: (
+            <>
+              <AddToCartForm
+                itemID="1"
+                itemTitle="JavaScript: The Definitive Guide"
+              />
+              <AddToCartForm
+                itemID="2"
+                itemTitle="JavaScript: The Good Parts"
+              />
+            </>
+          ),
+        },
       ],
     },
   ]);
