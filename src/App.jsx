@@ -11,6 +11,7 @@ import { UseExampleContext } from "./components/useExampleContext/Theme";
 import { ActionExample1 } from "./components/actionExample1/Posts";
 import { ActionExample2 } from "./components/actionExample2/ShoppingCart";
 import AddToCartForm from "./components/useFormStateExample/AddToCartForm";
+import { UseFormStatusExample } from "./components/useFormStatusExample/Posts";
 // import { Posts } from "./components/useExample2/PostsUseEffect";
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
             </>
           ),
         },
+        { path: "useformstatus-example", element: <UseFormStatusExample /> },
       ],
     },
   ]);
