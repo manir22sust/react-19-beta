@@ -125,6 +125,20 @@ export const Home = () => {
           </li>
           <li className="my-5 rounded bg-green-50 p-4 shadow">
             <div>
+              <h3 className="text-2xl font-bold">Document Metadata Example</h3>
+              <p className="my-2">
+                Optimizing SEO, managing page titles and meta tags is pivotal.
+              </p>
+              <a
+                className="font-bold text-green-800"
+                href="/document-meta-data"
+              >
+                View
+              </a>
+            </div>
+          </li>
+          <li className="my-5 rounded bg-green-50 p-4 shadow">
+            <div>
               <h3 className="text-2xl font-bold">useTransition Example</h3>
               <p className="my-2">
                 Use the useTransition hook to show a message before the server
