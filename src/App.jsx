@@ -13,6 +13,7 @@ import { ActionExample2 } from "./components/actionExample2/ShoppingCart";
 import AddToCartForm from "./components/useFormStateExample/AddToCartForm";
 import { UseFormStatusExample } from "./components/useFormStatusExample/Posts";
 import UseOptimisticExample from "./components/useOptimisticExample/UseOptimisticExample";
+import DocumentMetaData from "./components/DocumentMetadata/DocumentMetaDataExample";
 // import { Posts } from "./components/useExample2/PostsUseEffect";
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
         },
         { path: "useformstatus-example", element: <UseFormStatusExample /> },
         { path: "useoptimistic-example", element: <UseOptimisticExample /> },
+        { path: "document-meta-data", element: <DocumentMetaData /> },
       ],
     },
   ]);
