@@ -14,6 +14,7 @@ import AddToCartForm from "./components/useFormStateExample/AddToCartForm";
 import { UseFormStatusExample } from "./components/useFormStatusExample/Posts";
 import UseOptimisticExample from "./components/useOptimisticExample/UseOptimisticExample";
 import DocumentMetaData from "./components/DocumentMetadata/DocumentMetaDataExample";
+import { UseTransitionExample } from "./components/useTransitionExample/Tabs";
 // import { Posts } from "./components/useExample2/PostsUseEffect";
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
         { path: "useformstatus-example", element: <UseFormStatusExample /> },
         { path: "useoptimistic-example", element: <UseOptimisticExample /> },
         { path: "document-meta-data", element: <DocumentMetaData /> },
+        { path: "usetransition-example", element: <UseTransitionExample /> },
       ],
     },
   ]);
